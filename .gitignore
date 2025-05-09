@@ -1,0 +1,63 @@
+# Environnement virtuel
+venv/
+.env
+.venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration / secrets
+*.env
+*.env.*
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Flask instance folder
+instance/
+
+# Logs
+*.log
+
+# VSCode & autres IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Base de données SQLite
+*.sqlite3
+*.db
+
+# fichiers compilés Cython / C
+*.so
+
+# pip
+pip-log.txt
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter notebooks (optionnel)
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
